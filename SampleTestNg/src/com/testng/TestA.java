@@ -27,7 +27,7 @@ public class TestA {
 	{
 		driver.navigate().to("http://www.google.com");
 		String strPageTitle=driver.getTitle();
-		System.out.println("******Get Title***********");
+		System.out.println("******Get Title in FireFox***********");
 		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Page tilte does not match ");
 				
 	}			
