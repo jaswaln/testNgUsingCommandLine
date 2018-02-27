@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86761" started-at="2018-02-26T18:57:05Z" finished-at="2018-02-26T18:58:32Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test Group" duration-ms="86761" started-at="2018-02-26T18:57:05Z" finished-at="2018-02-26T18:58:32Z">
+      <class name="com.testng.TestA">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.TestA@1ef7fe8e]" name="setUp" is-config="true" duration-ms="45923" started-at="2018-02-27T00:27:05Z" finished-at="2018-02-27T00:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInFirefox()[pri:0, instance:com.testng.TestA@1ef7fe8e]" name="testGooglePageTitleInFirefox" duration-ms="11989" started-at="2018-02-27T00:27:51Z" finished-at="2018-02-27T00:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.TestA@1ef7fe8e]" name="tearDown" is-config="true" duration-ms="1807" started-at="2018-02-27T00:28:03Z" finished-at="2018-02-27T00:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.TestA -->
+      <class name="com.testng.TestB">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.TestB@46f5f779]" name="setUp" is-config="true" duration-ms="10821" started-at="2018-02-27T00:28:05Z" finished-at="2018-02-27T00:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInFirefox()[pri:0, instance:com.testng.TestB@46f5f779]" name="testGooglePageTitleInFirefox" duration-ms="3075" started-at="2018-02-27T00:28:16Z" finished-at="2018-02-27T00:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.TestB@46f5f779]" name="tearDown" is-config="true" duration-ms="1074" started-at="2018-02-27T00:28:19Z" finished-at="2018-02-27T00:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.TestB -->
+      <class name="com.testng.TestC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.TestC@6f79caec]" name="setUp" is-config="true" duration-ms="4255" started-at="2018-02-27T00:28:20Z" finished-at="2018-02-27T00:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInFirefox()[pri:0, instance:com.testng.TestC@6f79caec]" name="testGooglePageTitleInFirefox" duration-ms="1907" started-at="2018-02-27T00:28:24Z" finished-at="2018-02-27T00:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.TestC@6f79caec]" name="tearDown" is-config="true" duration-ms="5854" started-at="2018-02-27T00:28:26Z" finished-at="2018-02-27T00:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.TestC -->
+    </test> <!-- TestNG Test Group -->
+  </suite> <!-- Suite -->
+</testng-results>
